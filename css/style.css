@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+section .container{
+    width: 100%;
+    height: 100vh;
+    background-color: #19a1ad;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-top{
+    position: absolute;
+    bottom: 100px;
+    left: -350px;
+}
+
+.img-bottom{
+    position: absolute;
+    bottom: -550px;
+    right: -250px;
+}
+
+.profile{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 190px;
+    left: 590px;
+    border-radius: 20px;
+}
+
+.profile-bg{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.circle{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.circle .person{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+
+span{
+    color: gray;
+    position: absolute;
+    top: 210px;
+    left: 230px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.place{
+    color: gray;
+    position: absolute;
+    top: 240px;
+    left: 150px;
+}
+
+hr{
+    height: 2px;
+    background-color: gray;
+    margin-top: 150px;
+}
+
+.first-line{
+    font-weight: 500;
+    font-size: 20px;
+    word-spacing: 70px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.second-line{
+    font-weight: 500;
+    font-size: 10px;
+    word-spacing: 80px;
+    margin-left: 37px;
+}
+
+@media (max-width: 415px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    
+    section .container{
+        width: 100%;
+        height: 100vh;
+        background-color: #19a1ad;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .img-top{
+        position: absolute;
+        bottom: 350px;
+        left: -750px;
+    }
+
+    .img-bottom{
+        position: absolute;
+        bottom: -530px;
+        right: -740px;
+    }
+
+    .profile{
+        width: 350px;
+        height: 400px;
+        background-color: #fff;
+        position: absolute;
+        top: 190px;
+        left: 12px;
+        border-radius: 20px;
+    }
+    
+    .profile-bg{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .circle{
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        top: 90px;
+        left: 120px;
+    }
+    
+    .circle .person{
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .name{
+        font-weight: 600;
+        font-size: 20px;
+        position: absolute;
+        top: 210px;
+        left: 100px;
+    }
+    
+    span{
+        color: gray;
+        position: absolute;
+        top: 210px;
+        left: 230px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .place{
+        color: gray;
+        position: absolute;
+        top: 240px;
+        left: 150px;
+    }
+    
+    hr{
+        height: 2px;
+        background-color: gray;
+        margin-top: 150px;
+    }
+    
+    .first-line{
+        font-weight: 500;
+        font-size: 20px;
+        word-spacing: 70px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    
+    .second-line{
+        font-weight: 500;
+        font-size: 10px;
+        word-spacing: 80px;
+        margin-left: 37px;
+    }
+}
